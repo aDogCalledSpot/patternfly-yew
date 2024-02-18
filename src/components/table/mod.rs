@@ -5,6 +5,7 @@ mod header;
 mod model;
 mod props;
 mod render;
+mod row;
 
 pub use cell::*;
 pub use column::*;
@@ -13,6 +14,7 @@ pub use header::*;
 pub use model::*;
 pub use props::*;
 pub use render::*;
+pub use row::*;
 
 use crate::ouia;
 use crate::prelude::{Dropdown, ExtendClasses, Icon, MenuChildVariant, MenuToggleVariant};
